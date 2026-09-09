@@ -1,0 +1,40 @@
+{
+  "release": {
+    "owner": "XSUP4EME",
+    "repo": "X-Releases",
+    "tag": "v1"
+  },
+
+  "browsers": {
+    "chrome": {
+      "url": "https://dl.google.com/chrome/install/latest/chrome_installer.exe"
+    },
+    "brave": {
+      "url": "https://referrals.brave.com/latest/BraveBrowserStandaloneSetup.exe"
+    },
+    "chromium": {
+      "url": "",
+      "filename": "chromium-setup.exe",
+      "note": "Leave url empty to auto-resolve the latest upstream Chromium build."
+    }
+  },
+
+  "runtime": {
+    "vc_redist_x64": "https://aka.ms/vc14/vc_redist.x64.exe",
+    "vc_redist_arm64": "https://aka.ms/vc14/vc_redist.arm64.exe",
+    "vc_redist_x86": "https://aka.ms/vc14/vc_redist.x86.exe",
+    "webview2": "https://go.microsoft.com/fwlink/p/?LinkId=2124703"
+  },
+
+  "app": {
+    "latest_version": "1.0.0",
+    "min_supported_version": "1.0.0",
+    "mandatory": false,
+    "download_url": "https://github.com/XSUP4EME/X-Releases/releases/latest/download/Xhmas-TS_x64-setup.exe",
+    "notes_url": "https://github.com/XSUP4EME/X-Releases/releases",
+    "notes": "First server-managed release.\n\n• Runtime page: auto-detect + install WebView2 and the VC++ redistributable (x64/arm64/x86).\n• Updates page: version control against this manifest.\n• Release feed, browser URLs and installers are all server-managed.",
+    "published_at": "2026-09-09"
+  },
+
+  "message": ""
+}
